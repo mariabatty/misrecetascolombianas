@@ -13,6 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MisRecetasColombianas"
         tools:targetApi="31">
+
+        <!-- Pantalla principal -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -22,7 +24,11 @@
             </intent-filter>
         </activity>
 
-        <!-- (declara aquí otras actividades si las tienes) -->
+        <!-- Pantalla que carga el fragmento -->
+        <activity
+            android:name=".FragmentHostActivity"
+            android:exported="false" />
 
     </application>
+
 </manifest>
