@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Toolbar con botón de cierre -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_fullscreen"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#80000000"
+        app:navigationIcon="@android:drawable/ic_menu_close_clear_cancel"
+        app:title=""
+        app:titleTextColor="@android:color/white"/>
+
+    <!-- WebView debajo de la toolbar -->
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"/>
+</FrameLayout>

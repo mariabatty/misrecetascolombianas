@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/homeFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Top -->
+
+
+    <!-- Contenido -->
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="827dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:padding="16dp">
+
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_anchor="@+id/nestedScrollView"
+        app:layout_anchorGravity="top|center">
+
+        <!-- Título de la seccion -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Recetas"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Buscador -->
+        <EditText
+            android:id="@+id/etBuscar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext_border"
+            android:drawableStart="@android:drawable/ic_menu_search"
+            android:hint="Búsqueda"
+            android:inputType="text"
+            android:padding="12dp" />
+
+        <!-- Recetas -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvRecetas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:clipToPadding="false"
+            android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+
+    <!-- Bottom -->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

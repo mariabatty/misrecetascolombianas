@@ -1,0 +1,68 @@
+[
+  {
+    "nombre": "Arroz ranchero",
+    "imagenPrincipal": "arroz_ranchero",
+    "galeria": [
+      "arroz_1",
+      "arroz_2",
+      "arroz_3"
+    ],
+    "pasos": [
+      "Lavar el arroz",
+      "Sofreír cebolla y ajo",
+      "Agregar el arroz y caldo"
+    ],
+    "video": "https://youtu.be/ejemploVideo",
+    "favorita": false
+  },
+  {
+    "nombre": "Arepas con queso",
+    "imagenPrincipal": "arepas_queso",
+    "galeria": [
+      "arepas_queso.jpg",
+      "arepas_queso_2.jpeg",
+      "arepas_queso_2.jpg"
+    ],
+    "pasos": [
+      "Mezclar harina y agua",
+      "Formar bolitas",
+      "Aplastar y cocinar"
+    ],
+    "video": "arepas_queso",
+    "favorita": false
+  },
+  {
+    "nombre": "Buñuelos",
+    "imagenPrincipal": "bunuelos",
+    "galeria": [
+      "bunuelos.jpg",
+      "bunuelos_2.jpg",
+      "bunuelos_3.jpg"
+    ],
+    "pasos": [
+      "Mezclar masa de buñuelos y agua",
+      "Formar bolitas",
+      "Cocinar"
+    ],
+    "video": "bunuelos",
+    "favorita": false
+  },
+  {
+    "nombre": "Bandeja Paisa",
+    "imagenPrincipal": "bandeja_paisa",
+    "galeria": [
+      "bandeja_1",
+      "bandeja_2",
+      "bandeja_3"
+    ],
+    "pasos": [
+      "Cocina el frijol",
+      "Cocina el arroz",
+      "Cocina el chicharron",
+      "Cocina la carne",
+      "Corta el aguacate"
+    ],
+    "video": "video_url",
+    "favorita": false
+  }
+]

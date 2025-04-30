@@ -1,0 +1,29 @@
+# Archivos temporales
+*.log
+.DS_Store
+
+# Android Studio y Gradle
+.idea/
+.gradle/
+build/
+*/build/
+.cxx/
+local.properties
+*.iml
+captures/
+
+# Gradle cache y wrappers
+caches/
+**/caches/
+**/transforms/
+**/wrapper/
+**/jars-*/
+
+# Binarios grandes
+*.apk
+*.zip
+*.jar
+
+# Archivos generados
+*.apk
+output.json

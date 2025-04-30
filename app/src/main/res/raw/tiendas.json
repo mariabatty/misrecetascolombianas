@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "Olimpica",
+    "logo": "olimpica_logo",
+    "url": "https://www.olimpica.com/"
+  },
+  {
+    "nombre": "Carulla",
+    "logo": "carulla_logo",
+    "url": "https://www.carulla.com"
+  },
+  {
+    "nombre": "Éxito",
+    "logo": "exito_logo",
+    "url": "https://www.exito.com"
+  },
+  {
+    "nombre": "Alpina",
+    "logo": "alpina_logo",
+    "url": "https://www.alpina.com"
+  }
+]
