@@ -6,5 +6,5 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        // No establecemos ningún layout porque no se usa esta activity ahora
-    }
+
+    }}
